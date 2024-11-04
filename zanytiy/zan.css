@@ -1,0 +1,121 @@
+/* Общие стили */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #95ea86;
+    color: #333;
+  }
+  /* Бургер-меню активное состояние */
+  .menu.active {
+    display: block;
+  }
+  
+  .burger-menu {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+  }
+  
+  .burger-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .burger-icon span {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    transition: all 0.3s ease;
+  }
+  
+  /* Скрываем меню по умолчанию */
+  .menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    margin: 10px 0;
+  }
+  
+  .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+ 
+  .menu.open {
+    display: block;
+  }
+  
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .introduction h1,
+  .personal-story h2,
+  .music-section h2,
+  .cat-section h2 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #333;
+  }
+  
+  .about-container p {
+    font-family: "Roboto", sans-serif;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .music-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .cat-section {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  .introduction p,
+  .personal-story p,
+  .music-section p,
+  .cat-section p {
+    font-size: 18px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+  }

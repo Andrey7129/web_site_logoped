@@ -1,0 +1,218 @@
+body{ 
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+ } 
+ div {
+  display: flex;
+  }
+  .leftfoto {
+    float:left;
+    margin: 4px 10px 2px 0px;
+  }
+  .left {
+    text-align: left;
+  }
+  .right {
+    text-align: right;
+  }
+  .center {
+    text-align: center;
+  }
+  
+  @font-face {  
+    font-family: 'Nautilus';  
+    src: url('fonts/Nautilus.otf');
+     }  
+  @font-face {  
+    font-family: 'Caviar Dreams';  
+    src: url('fonts/CaviarDreams.ttf');
+     }  
+     @font-face {  
+      font-family: 'Caviar Dreams';  
+      src: url('fonts/Caviar_Dreams_Bold.ttf');
+      font-weight:bold;
+       } 
+       @font-face {  
+        font-family: 'Caviar Dreams';  
+        src: url('fonts/CaviarDreams_BoldItalic.ttf');
+        font-weight:bold;
+        font-style:italic;
+         } 
+     
+    .nav__link:hover {  
+    color: red;  
+  }  
+
+  .header__caption 
+  {  
+    color: red;  
+  }  
+
+
+  .content {  
+    padding: 20px;  
+  }  
+    
+  .footer {  
+    background-color: #2ac832;  
+    color: #0ff01e;  
+    text-align: center;  
+    padding: 1px 0;  
+  } 
+  #special {
+    color: gold; 
+  }
+  .footer__text{
+    color: rgb(204, 90, 14); 
+  }
+  
+   .header__menu-link:hover {
+    color: rgb(159, 52, 31);
+    font-family: Caviar Dreams;
+    font-size: 300%;
+}
+  h1 {
+    color: blue;
+    font-family: Nautilus;
+    font-size: 300%;
+}
+ h2 {
+    color: red;
+    font-family: Caviar Dreams;
+    font-size: 300%;
+}
+
+.projects__item-steps{
+  color: rgb(14, 6, 131);
+  font-family: Nautilus;
+    font-size: 200%;
+}
+
+h3 {
+  color: rgb(14, 6, 131);
+  font-family: Nautilus;
+    font-size: 200%;
+} 
+#paragraph {
+  background-color:rgb(223, 209, 16)
+}
+.border {
+  border: 1px solid red;
+    padding: 30px;
+}
+.element {
+  background-color: red;
+}
+.nav__link::after {       
+  content: 
+  color #000;
+}
+
+.selector {
+  background-image: url"/images/fon1.jpg";
+}
+.image {  
+  max-width: 100%; 
+  height: auto;
+}
+.projects__item{
+  margin-top: 10px;
+  font-style: italic;
+  background-color: #eee;
+  padding: 10px;
+  border-left: 10px solid #9cca9d;
+  text-align: center;
+}
+
+.about__quote {
+  margin-top: 20px;
+  font-style: italic;
+  background-color: #eee;
+  padding: 10px;
+  border-left: 5px solid #4caf50;
+  text-align: center;
+}
+body {
+  background-color: #66c29a;
+}
+ 
+@media screen and (max-width: 1600px) {
+  body {
+    background-color: #3BCEAC;
+  }
+}
+/* Стили для header */
+.header {
+  background-color: #93d095;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  z-index: 10; /* z-index для обеспечения отображения поверх других элементов */
+}
+.header__nav {
+  z-index: 20; /* z-index для навигации */
+}
+@media screen and (max-width: 1280px) {
+  body {
+    background-color: #FFD23F;
+  }
+}
+ 
+@media screen and (max-width: 960px) {
+  body {
+    background-color: #EE4266;
+  }
+}
+ 
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #540D6E;
+  }
+}
+  div {
+    height: 11rem;
+    background-color: rgb(221, 232, 233);
+    @media (max-width: 280px) {
+      width: 100%
+    };
+      @media (min-width: 480px) {
+      width: 100%
+    };
+  
+  /* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .header__title {
+    font-size: 1.6em;
+  }
+}
+  .header__subtitle {
+    font-size: 1em;
+  }
+
+  .header__menu-item {
+    margin: 0 20px;
+  }
+
+  .portfolio__project {
+    width: calc(50% - 20px);
+  }
+
+@media (max-width: 480px) {
+  .portfolio__project {
+    width: 100%;
+  }
+}
+  .header__menu {
+    flex-direction: column;
+  }
+
+  .header__menu-item {
+    margin-bottom: 20px;
+  }
+
+  .about__image {
+    max-width: 250px;
+  }
+}
